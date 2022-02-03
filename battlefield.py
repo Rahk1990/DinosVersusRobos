@@ -1,9 +1,6 @@
 from fleet import Fleet
 from herd import Herd
 
-
-
-
 class Battlefield:
 
     def __init__(self):
@@ -11,7 +8,7 @@ class Battlefield:
         self.herd = Herd
 
     def run_game(self):
-        pass
+        print('Game Start')
     
     def welcome(self):
         print('Welcome to Game!')

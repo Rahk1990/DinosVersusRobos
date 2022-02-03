@@ -1,7 +1,9 @@
 class Weapons:
 
 
-    def __init__(self):
-        self.name = 'Robot Weapon'
-        self.attack_power = 25
-        pass
+    def __init__(self, name, attack_power):
+        self.name = name
+        self.attack_power = attack_power
+    
+    
+    

@@ -2,7 +2,17 @@ from dinos import Dinos
 
 class Herd:
     def __init__(self):
-        self.dinos = [Dinos] 
+        
+        self.dinos = [] 
 
-    def create_heard(self):
-        pass
+
+    def create_herd(self):
+        dino_one = Dinos('Toothy', 20)
+        self.dinos.append(dino_one)
+
+        dino_two = Dinos('chompy', 45)
+        self.dinos.append(dino_two)
+
+        dino_three = Dinos('Klaw', 50)
+        self.dinos.append(dino_three)
+   
