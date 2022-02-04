@@ -27,4 +27,9 @@ class Herd:
 
     def dino_turn(self):
         dino_fighter = self.dinos[1]
-        return dino_fighter 
+        print(dino_fighter) 
+
+    def dino_status_check(self, dino):
+        if dino.health <= 0:
+            print(f'{dino.name} was eliminated form the battle.')
+            self.dinos.remove(dino)

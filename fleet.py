@@ -16,6 +16,10 @@ class Fleet:
     
         robo_three = Robots('Bolt')
         self.robots.append(robo_three)
-        
-        
-        
+
+    def fleet_status_check(self, robot):
+        if robot.health <= 0:
+            print(f'{robot.name} was eliminated form the battle.')
+            self.robots.remove(robot)
+            
+
