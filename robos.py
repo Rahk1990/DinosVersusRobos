@@ -3,7 +3,7 @@ from weapons import Weapons
 class Robots:
     def __init__(self, name):
         self.name = name
-        self.health = 25
+        self.health = 50
         self.weapons = Weapons('Hammer', 25)
 
     def attack(self, dino):

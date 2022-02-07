@@ -5,8 +5,8 @@ class Dinos:
 
    def __init__(self, name):
       self.name = name 
-      self.attack_power = 40 
-      self.health = 25 
+      self.attack_power = 25
+      self.health = 50 
       
       
    def attack(self, robot):
